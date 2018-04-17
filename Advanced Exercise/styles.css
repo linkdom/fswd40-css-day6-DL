@@ -1,0 +1,99 @@
+/*# sourceMappingURL=styles.css.map */
+
+/*Delete all margins and paddings as well as setting the font*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+/*Define the size of the website*/
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+/*defining the header and setting the background color*/
+
+.header {
+	height: 70px;
+	background-color: grey;
+}
+
+/*Arrange the ul to the right side*/
+
+ul {
+	text-decoration: none;
+	float: right;
+	margin: 2%;
+	overflow: hidden;
+}
+
+/*Display the li's inline with the logo*/
+
+li {
+	display: inline-block;
+	padding: 15px;
+}
+
+/*Delete Link decoration*/
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*Set the color and font to be different if you hover it*/
+
+a:hover {
+	color: orange;
+	font-weight: bold;
+	font-size: 110%
+}
+
+/*setting the size of the container*/
+
+.logo {
+	height: 100px;
+	width: 200px;
+}
+
+/*Make the Picture 100% size of its container*/
+
+.logopic {
+	height: 100%;
+	width: 100%;
+}
+
+/*Set a space between header and main content*/
+
+.maincontent {
+	margin-top: 3%;
+}
+/*Set all images to the same size*/
+
+img {
+	height: 350px;
+	width: 350px;
+}
+
+/*Set the pictures to align next to each other*/
+
+.picture {
+	width: 30%;
+	display: inline-block;
+	padding: 1%;
+	text-align: center;
+}
+
+/*Define the footer*/
+
+footer {
+	height: 2%;
+	text-align: center;
+	color: white;
+	background-color: grey;
+	padding: 1%;
+}
